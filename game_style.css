@@ -1,0 +1,51 @@
+.button {
+  width: 4vw;
+  height: 4vw;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 1px;
+  background-color: #f4a91e;
+}
+
+.pawn {
+  width: 4vw;
+  height: 4vw;
+  display: inline-block;
+  border-style: solid;
+  border-color: #f4a91e;
+  border-radius: 2px;
+  border-width: 1vw;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: 1px;
+  background-color: #5e0000;
+}
+
+.way {
+  background-color: #0000ff;
+}
+
+.clicked {
+  border-style: outset;
+  border-color: #00ff22;
+  border-radius: 2px;
+}
+
+.row {
+  clear: both;
+}
+
+#game {
+  padding-left: 1vw;
+  padding-top: 1vh;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 9vw;
+    height: 9vw;
+    margin: 1px;
+  }
+}

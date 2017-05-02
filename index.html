@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MyGame</title>
+
+    <!-- Bootstrap: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="general_style.css">
+    <script src="menu_toggle.js"></script>
+    <link rel="stylesheet" href="game_style.css">
+    <script type="text/javascript" src="game.js"></script>
+
+  </head>
+
+  <body oncontextmenu="return false;">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!--  -->
+          <a class="navbar-brand" href="#">Drogas</a>
+          <button type="button" class="btn btn-info navbar-btn" id="menu-toggle">Toggle</button>
+        </div>
+      </div>
+    </nav>
+
+  <div id="wrapper">
+
+    <!-- sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+
+    <!-- Page: -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="#" class="btn btn-success" id="generate-board">New game</a>
+            <p id="textAboutWay">Szukamy drogi!</p>
+            <div id="game">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+
+</html>
